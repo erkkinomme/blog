@@ -54,3 +54,17 @@ server by jQuery and server's response will be written to the box below.
     <input type="submit" value="Post"/>
 </form>
 
+    <?foreach( $posts as $post ):?>
+    <div class="container">
+        <div class="col-md-12">
+            <h1><?=$post['post_subject']?></h1>
+            <p><?=$post['post_subject']?></p>
+            <div>
+                <span class="badge">Posted 2012-08-02 20:47:04</span><div class="pull-right"><span class="label label-default">alice</span> <span class="label label-primary">story</span> <span class="label label-success">blog</span> <span class="label label-info">personal</span> <span class="label label-warning">Warning</span>
+                    <span class="label label-danger">Danger</span></div>
+            </div>
+
+            <hr>
+        </div>
+    </div>
+    <?endforeach?>
