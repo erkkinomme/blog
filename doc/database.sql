@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabeli struktuur tabelile `post`
+-- Tabeli struktuur tabelile `posts`
 --
 
 DROP TABLE IF EXISTS `post`;
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `post` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
 
 --
--- Andmete tõmmistamine tabelile `post`
+-- Andmete tõmmistamine tabelile `posts`
 --
 
 INSERT INTO `post` (`post_id`, `post_subject`, `post_text`, `post_created`, `user_id`) VALUES
