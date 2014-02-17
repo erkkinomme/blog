@@ -17,15 +17,4 @@ if(!empty($posts)) foreach ($posts as $post ): ?>
 
 
     </div>
-<?php endforeach; ?>
-
-
-
-
-
-<?php
-if (!empty($tags[$post['post_id']]))foreach ($tags[$post['post_id']] as $tag):?>
-    <a href="<?=BASE_URL?>tags/view/<?=$tag['tag_name']?>"><span class = "label" style="background-color: #5bc0de"><?=$tag?></span></a>
-
-<? endforeach?>
-
+<? endforeach; ?>
