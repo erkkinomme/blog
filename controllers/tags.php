@@ -12,7 +12,7 @@ class tags extends Controller{
 
         $tag_id= $this->params[0];
         $this->posts = get_all("SELECT post.*, user.username
-		 FROM post_tags NATURAL JOIN post natural join user WHERE tag_id='$tag_id'
+		 FROM post_tags NATURAL JOIN post NATURAL JOIN user WHERE tag_id='$tag_id'
 		 ");
     }
 }
