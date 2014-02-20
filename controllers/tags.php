@@ -11,8 +11,8 @@ class tags extends Controller{
     function view(){
 
         $tag_id= $this->params[0];
-        $this->posts = get_all("SELECT post.*
-		 FROM post_tags NATURAL JOIN post WHERE tag_id='$tag_id'
+        $this->posts = get_all("SELECT post.*, user.username
+		 FROM post_tags NATURAL JOIN post natural join user WHERE tag_id='$tag_id'
 		 ");
     }
 }
