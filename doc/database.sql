@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `post` (
 INSERT INTO `post` (`post_id`, `post_subject`, `post_text`, `post_created`, `user_id`) VALUES
 (3, 'Post', 'Posti teema', '2013-10-12 14:48:12', 1),
 (5, 'Post 2', 'Sisu', '2013-10-12 15:37:17', 1),
-(6, 'POst 3', 'post 3 sisu', '2013-10-13 13:41:29', 1);
+(6, 'Post 3', 'post 3 sisu', '2013-10-13 13:41:29', 1);
 
 -- --------------------------------------------------------
 
