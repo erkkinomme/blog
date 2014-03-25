@@ -2,7 +2,7 @@
     <?foreach ($tag as $tag):?>
         <a
             href="<?=BASE_URL?>tags/view/<?=$tag['tag_id']?>" class="list-group-item">
-            <?=$tag['tag_name']?>
+            <?=$tag['tag_id']?>
         </a>
     <?endforeach?>
 </div>
