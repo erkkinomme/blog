@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Loomise aeg: Veebr 20, 2014 kell 09:23 EL
+-- Loomise aeg: Märts 27, 2014 kell 09:32 PL
 -- Serveri versioon: 5.6.14
 -- PHP versioon: 5.5.6
 
@@ -133,7 +133,7 @@ CREATE TABLE IF NOT EXISTS `tag` (
 INSERT INTO `tag` (`tag_id`, `tag_name`) VALUES
 (1, 'test 1'),
 (2, 'test 2'),
-(3, 'ühine');
+(3, 'all');
 
 -- --------------------------------------------------------
 
