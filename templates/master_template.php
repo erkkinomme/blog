@@ -48,7 +48,6 @@
                 <li <?= $controller == 'tags' ? 'class="active"' : ''?>><a href="<?=BASE_URL?>tags">Tags</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="./">Fixed top</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

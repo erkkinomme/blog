@@ -10,7 +10,7 @@
 <!--
     <a href="<?=BASE_URL?>tags/view/<?=$tag['tag_name']?>" class="list-group-item"><?=$tag['tag_name']?></a>
     -->
-<?foreach ($tags as $tag):?><a href="<?=BASE_URL?>tags/view/<?=$tag['tag_id']?>"><span class="label-info" style="background-color: #5bc0de"><?=$tag['tag_name']?></span></a><?endforeach?>
+<?foreach ($tags as $tag):?><a href="<?=BASE_URL?>tags/view/<?=$tag['tag_name']?>"><span class="label-info" style="background-color: #5bc0de"><?=$tag['tag_name']?></span></a><?endforeach?>
 
 <?foreach($comments as $comment):?>
     <div class="media">
