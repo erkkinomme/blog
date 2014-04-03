@@ -40,7 +40,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="posts"><?=PROJECT_NAME?></a>
+			<a class="navbar-brand" href="<?=BASE_URL?>"><?=PROJECT_NAME?></a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
