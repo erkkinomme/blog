@@ -40,11 +40,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#"><?=PROJECT_NAME?></a>
+			<a class="navbar-brand" href="posts"><?=PROJECT_NAME?></a>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-                <li <?= $controller == 'posts' ? 'class="active"': ''?>><a href="<?=BASE_URL?>">Posts</a></li>
+                <li <?= $controller == 'posts' ? 'class="active"': ''?>><a href="<?=BASE_URL?>posts">Posts</a></li>
                 <li <?= $controller == 'tags' ? 'class="active"' : ''?>><a href="<?=BASE_URL?>tags">Tags</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
